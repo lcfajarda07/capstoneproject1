@@ -1,0 +1,293 @@
+/*@font-face{
+	font-family: "bagong-font">
+	src:url("../fonts/bebas.otf");
+		/*css reset*/
+
+
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+	/*font-family: 'Titillium Web', sans-serif;*/
+
+/*	font-family: 'bagong-font', sans-serif;*/
+
+}
+#tshirt{
+	
+}
+
+
+
+/*html,body{
+	scroll-behavior:smooth;
+	overflow-y: scroll;
+	max-width:100%;
+	overflow-x: hidden;
+}*/
+
+
+.jumbotron hr{
+	background-color: white;
+}
+#jumbo-land{
+	height: 110vh;
+	width:100vw;
+	background:url(../images/grey.jpg);
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	border-radius: 0;
+	background-size: cover;
+	margin-bottom:0 auto; 
+}
+/*.jumbotron h1, .jumbotron p{
+color:black;
+font-family: 'Anton', sans-serif;
+
+}*/
+
+/*.spread{
+	
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60vw;
+	height: 80vh;
+	display:block;
+}*/
+.new{
+	margin-top: 0 auto;
+	padding:0 auto
+	height:10px;
+}
+.container {
+  position: relative;
+  width: 50%;
+
+  }
+  .container .btn  {
+  position: absolute;
+  bottom:5%;
+  left:45%;
+  font-size: 16px;
+  padding: 12px 24px;
+   background-color: Transparent;
+   background-repeat:no-repeat;
+   border: none;
+   cursor:pointer;
+   overflow: hidden;    
+  }
+.btn a{
+color:black;
+}
+.tees{
+	color:black;
+}
+#teesbg{
+	background:url(../images/malist.jpg);
+	 background-repeat:no-repeat;
+    /*background-attachment: fixed;*/
+	height:120vh;
+	width:100vw;
+	background-size: cover;
+/*	margin-top:5%; */
+	
+
+
+}
+.card{
+		
+	height:95%;
+	width:70%;
+	margin-left: 15%;
+   position: absolute;
+  /*transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+*/
+
+	
+}
+.card-body{
+	height:30%;
+
+
+}
+.word{
+	text-align: center;
+	margin-top: 12%;
+	color: white;
+
+	
+	/*position: fixed;*/
+}
+.word1{
+	
+	text-align: center;
+	margin-top: 20%;
+	color: black;
+	margin-right: 30%;
+	margin-left: 30%;
+
+
+}
+
+.tes{
+	color:black;
+}
+.tees{
+	color:white;
+}
+
+#teesbg1{
+	background:url(../images/tree2.jpg);
+	 background-repeat:repeat;
+    background-attachment: fixed;
+	height:1000vh;
+	width:100vw;
+	background-size: cover;
+	margin-top:0;
+	
+	
+}
+
+/*.footer{
+	position: absolute;
+
+}
+*/
+/*about page*/
+.senti{
+	width:100%;
+	height: 50vh;
+}
+.heartbeat{
+font-family: 'Titillium Web', sans-serif;
+text-align: left;
+padding-top: 1%;
+margin-left: 5%;
+color:white;
+
+}
+.heartbeat1{
+font-family: 'Titillium Web', sans-serif;
+text-align: left;
+padding-top: 1%;
+margin-left: 5%;
+color:white;
+
+}
+.bg{
+	
+	background-color: black;
+	background-position: fixed;
+}
+/*end of about page*/
+
+
+#contactsbg{
+background:url(../images/contacts.jpg);
+height:100vh;	
+width:100vw;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.title{
+	color:black;
+}
+.containertxt{
+	margin-left: 30%;
+	text-align:justify;
+	border-style:solid ;
+	width:40%;
+
+}
+.meet{
+	padding-bottom: 10%;
+}
+
+
+@media only screen and (max-width:360px){
+	#jumbo-land{
+background-size:1000px
+margin-bottom: 0;
+}
+
+#teesbg{
+
+margin-bottom: 0 auto;
+margin-top: 0;
+background-position: fixed;
+background-size: cover;
+height:100vh;
+width: 100vw;
+
+}
+
+
+#teesbg1{
+background-size:1500px;
+margin-bottom: 0 auto;
+background-position: fixed;
+background-size: cover;
+height:1200vh;
+width: 100vw;
+display:block;
+
+}
+html,body{
+	
+	
+	max-width:100%;
+	overflow-x: hidden;
+}
+#containerbox{
+	margin-left: 0;
+
+}
+}
+
+@media only screen and (min-width:410px){
+
+#teesbg1{
+background-size:1500px;
+margin-bottom: 0 auto;
+background-position: fixed;
+background-size: cover;
+height:1130vh;
+width: 100vw;
+
+
+}
+html,body{
+	
+	
+	max-width:100%;
+	overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-width:961px){
+
+#teesbg1{
+
+margin-bottom: 0 auto;
+background-position: fixed;
+background-size: cover;
+height:600vh;
+
+}
+#containerbox{
+	margin-right: 100px;
+}
+}
+
+
+
+
